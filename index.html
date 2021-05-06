@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+   <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')>
+  <title>Selamat Hari Raya</title>
+</head>
+<body>
+  <div class="card">
+    <img src="img2.png" alt="Raya" class="raya">
+    <div class="space"></div>
+    <div class="text">
+      <h1 style="color: gold; text-shadow: 2px 2px 5px grey;"onmouseover="mOver(this)" onmouseout="mOut(this)">Selamat Hari Raya</h1>
+      <h1 style="text-shadow: 2px 2px 5px grey; font-family: Brush Script MT ">Aidilfitri</h1>
+      <p>Kapal berlabuh di tengah lautan</p>
+      <p>Sambil menunggu datangnya lebaran</p>
+      <p>Walau jarak memisahkan</p>
+      <p>Pesan maaf saya sampaikan</p>
+      <p class="muted">-Fatin Nur Fadzilah </p>
+    </div>
+  </div>
+  <audio controls>
+      <source src="laguraya.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+    <script type="text/javascript">
+      function mOver(obj) {
+      obj.innerHTML = "Maaf Zahir dan Batin"
+      }
+
+      function mOut(obj) {
+        obj.innerHTML = "Selamat Hari Raya"
+      }
+
+    </script>
+</body>
+</html>
